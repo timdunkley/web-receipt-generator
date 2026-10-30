@@ -2,7 +2,7 @@ import { app, BrowserWindow } from 'electron'
 import path from 'path'
 import { fileURLToPath } from 'url'
 
-// 获取__dirname，因为在ESM模式下没有直接的__dirname
+// Get __dirname，Because there is no direct __dirname in ESM mode.
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
